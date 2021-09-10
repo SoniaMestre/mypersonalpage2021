@@ -26,12 +26,29 @@ import logotipsolving from "../img/logosolving.jpeg";
 import logotipadaptation from "../img/logoadaptation.jpeg";
 import logotipstrategy from "../img/logostrategy.png";
 import logotipempathy from "../img/logoempathy.png";
+import mainskills from "../img/playmobil.jpeg";
 
 
 
 export const Skills = () => (
 
         <main className="collections">
+            <section className="projectintro2">
+                <div className="intro2">
+                    <div className="projectimage2">
+                        <img className="project-img2" src={mainskills} alt="Tech skills" />
+                    </div>
+                    <h1 className="project-title2">Skills</h1>
+                    <p className="project-subtitle2"> Random facts</p>
+                    <ul className="llista">
+                    <li className="project-text2">I like to travel</li>
+                        <li className="project-text2">I'm learning arabic</li>
+                        <li className="project-text2">Outodoor sports are my zen time</li>
+                        <li className="project-text2">I slightly addicted to sweats</li>
+                    </ul>
+                </div>
+
+            </section>
             <section className="sectioncontainer">
             <h1 className="titlestacks"> Developer Skills</h1>
             <h4 className="Stacks">Stacks & Libraries</h4>

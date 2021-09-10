@@ -2,6 +2,60 @@
 body{
     line-height: 1.2px;
 }
+
+.projectintro2 {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 77px;
+}
+
+.intro2 {
+    display:block;
+    /*margin-bottom: 25px;*/
+}
+
+.project-title2 {
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
+    letter-spacing: -0.06em;
+    color: #111111;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.project-subtitle2 {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    max-width: 300px;
+    text-align: left;
+    color: #777777;
+    overflow: auto;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+.project-text2 {
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    color: #777777;
+    overflow: auto;
+    font-weight: normal;
+
+}
+.project-img2 {
+    height: 300px;
+    position: relative;
+    margin: 15px 50px 0 130px;
+}
+
 .collections {
     display: flex;
     flex-direction: column;
