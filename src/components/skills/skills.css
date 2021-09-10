@@ -1,0 +1,86 @@
+
+body{
+    line-height: 1.2px;
+}
+.collections {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: min-content;
+    margin-top: 5rem;
+    margin-left: 14rem;
+}
+
+.titlestacks {
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0px 0px 40px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+
+.area {
+    display: flex;
+    position: relative;
+    scroll-snap-align: center;
+}
+
+.Stacks{
+    font-weight: 700;
+    margin: 0 0;
+    border-bottom: 1px dashed black;
+    padding-bottom: 1rem;
+    margin-bottom:2rem;
+
+}
+
+/*.skill {
+    max-width: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 0 0;
+    outline: none;
+}*/
+
+.img-container {
+    transition: transform 90ms ease-in 0s;
+    user-select: none;
+    position: relative;
+    cursor: default;
+    margin-right: 6rem;
+}
+
+.imglogos {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: scale(1);
+    transition: transform 120ms ease 0s;
+    border-radius: 10%;
+    border:3px solid red;
+    width: 4rem;
+    height: 4rem;
+}
+
+.subtitlestacks{
+    display: block;
+    font-size: 0.67em;
+    margin-top: 5.5rem;
+    font-weight: lighter;
+}
+
+
+.sectioncontainer {
+    background-color: white;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding: 3rem;
+}
+

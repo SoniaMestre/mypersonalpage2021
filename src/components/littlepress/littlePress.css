@@ -1,0 +1,110 @@
+.littlepressprojectintro {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 8rem;
+}
+
+.littlepressintro {
+    display:block;
+}
+.littlepress-title {
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
+    letter-spacing: -0.06em;
+    color: #111111;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+    font-size: 4.4rem;
+}
+
+.littlepress-subtitle {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    max-width: 380px;
+    text-align: left;
+    color: #777777;
+    overflow: auto;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+.littlepress-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 380px;
+    margin: 0 auto;
+    text-align: left;
+    color: #777777;
+    overflow: auto;
+    font-weight: normal;
+
+}
+.littlepress-main-image {
+    height: 320px;
+    position: relative;
+    margin: 15px 50px 0 130px;
+}
+
+/*showroom*/
+.littlepress-examples {
+    background-color: #fafafa;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.littlepress06 {
+    margin: 6rem auto 6.4rem auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.textcontainerlittlepress {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 16.7rem;
+    width: 50%;
+    line-height: 1.7;
+
+
+}
+.titleexampleslittlepress {
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
+    letter-spacing: -0.06em;
+    color: #111111;
+    text-rendering: optimizeLegibility;
+    font-weight: normal;
+    font-size: 3rem;
+}
+.textexampleslittlepress {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    letter-spacing: -0.06em;
+}
+.littlepressprojectsuccess {
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 3rem;
+    margin-top:3rem;
+}
+.littlepress07 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    position: relative;
+    margin: 15px 50px 0 130px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}

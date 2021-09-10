@@ -1,0 +1,162 @@
+/*main*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Helvetica', sans-serif;
+}
+.projectintro {
+    text-align: left;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 77px;
+}
+
+.intro {
+    display:block;
+    /*margin-bottom: 25px;*/
+}
+
+.project-title {
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
+    letter-spacing: -0.06em;
+    color: #111111;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.project-subtitle {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    max-width: 300px;
+    text-align: left;
+    color: #777777;
+    overflow: auto;
+    font-weight: lighter;
+    margin: 0 auto 1rem auto;
+}
+
+.project-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    color: #777777;
+    overflow: auto;
+    font-weight: normal;
+
+}
+
+/*latest projects*/
+.gallery {
+    background-color: #fafafa;
+}
+#thumbs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: #fafafa;
+    padding: 2rem;
+    border-bottom: solid 1px #dddddd;
+    box-shadow: inset 0px 1px 4px 0px rgba(0,0,0,0.1);
+}
+
+.works {
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    margin: 17px;
+    opacity:1;
+}
+
+.description {
+    color: black;
+    margin: 17px 17px;
+    font-weight: normal;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+.grid-item:hover {
+    filter:opacity(0.9);
+    transform: scale(1.04);
+}
+.photos {
+    border-radius: 4%;
+    max-width:200px;
+    padding: 9px;
+}
+
+/*skills*/
+.brain {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.entrepreneur {
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
+    letter-spacing: -0.06em;
+    color: #111111;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.skills {
+    text-align: left;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 5rem;
+
+}
+.part-entrepreneur {
+    margin-bottom: 0.8rem;
+    margin-left: 5px;
+    line-height: 2;
+    text-rendering: optimizeLegibility;
+    text-align: left;
+}
+.entrepreneur-title {
+    display:block;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.entrepreneur-list {
+    font-size: 1.2rem;
+    line-height: 2.3;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: auto;
+    font-weight: lighter;
+    display:block;
+}
+
+.face-img {
+    height: auto;
+    width:28rem;
+    position: relative;
+    margin: 2px 50px 0 50px;
+}

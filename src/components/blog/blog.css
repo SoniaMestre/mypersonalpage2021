@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+}
+.header2 {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: initial;
+    width: 70%;
+    margin: auto;
+}
+
+/* Fake image */
+.imgslider {
+    width: 70%;
+    padding: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.imgblog {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.blogtitle {
+    font-size: 3rem;
+    line-height: 1.7;
+    text-align: center;
+    color: #777777;
+    overflow: auto;
+    font-weight: lighter;
+    margin: 1rem auto;
+}
+.titletextblog {
+    font-size: 2.5rem;
+    line-height: 1.7;
+    text-align: left;
+    color: #777777;
+    overflow: auto;
+    font-weight: normal;
+    margin: 1rem auto;
+}
+.textblog {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0 auto;
+    text-align: left;
+    color: #777777;
+    overflow: auto;
+    font-weight: normal;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
