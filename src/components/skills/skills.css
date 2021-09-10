@@ -3,7 +3,7 @@ body{
     line-height: 1.2px;
 }
 
-.projectintro2 {
+.firstcontainer {
     text-align: center;
     background-color: white;
     display: flex;
@@ -13,12 +13,12 @@ body{
     padding: 77px;
 }
 
-.intro2 {
+.intromain {
     display:block;
     /*margin-bottom: 25px;*/
 }
 
-.project-title2 {
+.titleskills {
     margin-bottom: 0.8rem;
     line-height: 1.2;
     letter-spacing: -0.06em;
@@ -28,7 +28,7 @@ body{
     font-size: 5rem;
 }
 
-.project-subtitle2 {
+.subtitleskills {
     font-size: 1.5rem;
     line-height: 1.7;
     max-width: 300px;
@@ -39,7 +39,7 @@ body{
     margin: 0 auto;
 }
 
-.project-text2 {
+.skilltext {
     font-size: 1rem;
     line-height: 1.7;
     max-width: 300px;
@@ -50,7 +50,7 @@ body{
     font-weight: normal;
 
 }
-.project-img2 {
+.projectimgplaymovil {
     height: 300px;
     position: relative;
     margin: 15px 50px 0 130px;
