@@ -1,19 +1,29 @@
-
+* {
+    box-sizing: border-box;
+}
 body{
     line-height: 1.2px;
 }
 
 .firstcontainer {
-    text-align: center;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #DCDCDC;
     padding: 77px;
+    margin-bottom:2rem;
 }
 
-.intromain {
+.playmovilimg {
+    height: 300px;
+    position: relative;
+    margin: 15px 50px 0 130px;
+}
+
+
+
+.textblockskills {
     display:block;
     /*margin-bottom: 25px;*/
 }
@@ -39,7 +49,7 @@ body{
     margin: 0 auto;
 }
 
-.skilltext {
+.skilllist {
     font-size: 1rem;
     line-height: 1.7;
     max-width: 300px;
@@ -48,28 +58,13 @@ body{
     color: #777777;
     overflow: auto;
     font-weight: normal;
-
-}
-.projectimgplaymovil {
-    height: 300px;
-    position: relative;
-    margin: 15px 50px 0 130px;
-}
-
-.collections {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    min-width: min-content;
-    margin-top: 5rem;
-    margin-left: 14rem;
 }
 
 .titlestacks {
     font-weight: 100;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin: 0px 0px 40px;
+    margin: 0px 0px 48px;
     cursor: pointer;
     position: relative;
     display: inline-block;
@@ -80,6 +75,8 @@ body{
     display: flex;
     position: relative;
     scroll-snap-align: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .Stacks{
@@ -91,33 +88,41 @@ body{
 
 }
 
-/*.skill {
-    max-width: 7rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    margin: 0 0;
-    outline: none;
-}*/
 
 .img-container {
     transition: transform 90ms ease-in 0s;
     user-select: none;
-    position: relative;
     cursor: default;
-    margin-right: 6rem;
 }
 
-.imglogos {
-    position: absolute;
+.imglogosstacks {
     top: 0px;
     left: 0px;
     transform: scale(1);
     transition: transform 120ms ease 0s;
     border-radius: 10%;
-    border:3px solid red;
+    border:3px solid royalblue;
+    width: 4rem;
+    height: 4rem;
+}
+
+.imglogosbusiness {
+    top: 0px;
+    left: 0px;
+    transform: scale(1);
+    transition: transform 120ms ease 0s;
+    border-radius: 10%;
+    border:3px solid darkgreen;
+    width: 4rem;
+    height: 4rem;
+}
+.imglogossoft {
+    top: 0px;
+    left: 0px;
+    transform: scale(1);
+    transition: transform 120ms ease 0s;
+    border-radius: 10%;
+    border:3px solid rebeccapurple;
     width: 4rem;
     height: 4rem;
 }
@@ -125,7 +130,7 @@ body{
 .subtitlestacks{
     display: block;
     font-size: 0.67em;
-    margin-top: 5.5rem;
+    margin-top: 1rem;
     font-weight: lighter;
 }
 
@@ -134,7 +139,7 @@ body{
     background-color: white;
     border-radius: 1rem;
     box-sizing: border-box;
-    margin-bottom: 1rem;
-    padding: 3rem;
+    padding: 5rem;
+    border-bottom: 1px solid #DCDCDC;
 }
 

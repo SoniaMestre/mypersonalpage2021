@@ -51,7 +51,7 @@ export const About = () => (
     <div className="profile-image">
         <img className="face-img" src={graphic} alt="Skills" />
     </div>
-    <div className="profile-entrepreneur">
+    <div className="part-entrepreneur">
         <h1 className="entrepreneur-title">Part Coder</h1>
         <p className="entrepreneur-list">Full Stack <br/> HTML/CSS/JS/React <br/> NPM/TDD/GitHub<br/> Java/Mongo/SQL/Docker<br/> GitHub/Git/Figma/Shell</p>
     </div>
