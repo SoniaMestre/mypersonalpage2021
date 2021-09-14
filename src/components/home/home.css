@@ -123,6 +123,9 @@ h3:before, h3:after{
     opacity:1;
 }
 
+.works1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
 .description {
     color: black;
     margin: 17px 17px;
@@ -134,8 +137,8 @@ h3:before, h3:after{
     right: 10px;
 }
 
-h4{
-    margin-bottom: 5px;
+.text4 {
+    margin-bottom: 1.4rem;
 }
 .grid-item:hover {
     filter:opacity(0.9);

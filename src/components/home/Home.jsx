@@ -30,7 +30,7 @@ export const Home = () => (
                         <img className="photos1" src={Sokjo} alt="Sokjo App"/>
                         <div className="description">
                             <span className="arrow-r" />
-                            <h4>Sokjo App</h4>
+                            <h4 className="text4">Sokjo App</h4>
                             <p>UX design</p>
                         </div>
                     </Link>
@@ -39,7 +39,7 @@ export const Home = () => (
                     <Link to={"/LittlePress"} style={{ textDecoration: 'none' }}>
                         <img className="photos1" src={littlepress_small} alt="Littlepress App"/>
                         <div className="description">
-                            <h4>Littlepress App</h4>
+                            <h4 className="text4">Littlepress App</h4>
                             <p>UX design & copies</p>
                         </div>
                     </Link>
@@ -49,7 +49,7 @@ export const Home = () => (
                         <img className="photos1" src={Mapit} alt="Mapit App"/>
                         <div className="description">
                             <span className="arrow-r" />
-                            <h4>Mapit App</h4>
+                            <h4 className="text4">Mapit App</h4>
                             <p>New business developer</p>
                         </div>
                     </Link>

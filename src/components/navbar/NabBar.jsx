@@ -15,7 +15,7 @@ export const NavBar = () => (
                 </Link>
                 <ul className="nav-menu">
                     <li className="nav-item">
-                        <Link smooth to={"/#About"} className="nav-link">About</Link>
+                        <Link smooth to={"/About"} className="nav-link">About</Link>
                     </li>
                     <li className="nav-item">
                         <Link to={"/skills"} className="nav-link">Skills</Link>

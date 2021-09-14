@@ -79,6 +79,10 @@ link  {
 
 }
 
+.works3:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
 .description2 {
     color: black;
     margin: 17px 17px;
@@ -92,11 +96,11 @@ link  {
 
 }
 
-h4{
+.textproj{
+
     margin-bottom: 5px;
     text-decoration: none;
-    text-decoration: none;
-
+    margin-bottom: 1.4rem;
 
 }
 .grid-item:hover {
