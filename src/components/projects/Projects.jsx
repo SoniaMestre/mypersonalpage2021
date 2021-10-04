@@ -5,6 +5,7 @@ import {Link} from "react-router-dom";
 import Sokjo from "../img/Sokjo_small.png";
 import littlepress from "../img/littlepress_small.png";
 import Mapit from "../img/Mapit.png";
+import Eco2 from "../img/eco-home-small.png";
 
 
 
@@ -26,6 +27,16 @@ export const Projects = () => (
 <section className="grid-container3">
     <ul id="thumbs3">
         <li className="works3">
+            <Link to={"/Econotravel"} style={{ textDecoration: 'none' }}>
+                <img className="photos5" src={Eco2} alt="Econotravel"/>
+                <div className="description">
+                    <span className="arrow-r" />
+                    <h4 className="text4">Econotravel web-app</h4>
+                    <p>React + npm</p>
+                </div>
+            </Link>
+        </li>
+        <li className="works3">
             <Link to={"/Sokjo"} style={{ textDecoration: 'none' }}>
                 <img className="photos5" src={Sokjo} alt="Sokjo App"/>
                     <div className="description2">
@@ -45,6 +56,8 @@ export const Projects = () => (
                     </div>
             </Link>
         </li>
+    </ul>
+    <ul id="thumbs4">
         <li className="works3">
             <Link to="/Mapit" style={{ textDecoration: 'none' }}>
                 <img className="photos5" src={Mapit} alt="Mapit App" />
@@ -53,6 +66,26 @@ export const Projects = () => (
                         <h4 className="textproj">Mapit App</h4>
                         <p>New business developer</p>
                     </div>
+            </Link>
+        </li>
+        <li className="works3">
+            <Link to="/LittlePress" style={{ textDecoration: 'none' }}>
+                <img className="photos5" src={littlepress} alt="Littlepress App" />
+                <div className="description">
+                    <span className="arrow-r2"  />
+                    <h4 className="textproj">Littlepress App</h4>
+                    <p>UX design & copies</p>
+                </div>
+            </Link>
+        </li>
+        <li className="works3">
+            <Link to="/LittlePress" style={{ textDecoration: 'none' }}>
+                <img className="photos5" src={littlepress} alt="Littlepress App" />
+                <div className="description">
+                    <span className="arrow-r2"  />
+                    <h4 className="textproj">Littlepress App</h4>
+                    <p>UX design & copies</p>
+                </div>
             </Link>
         </li>
     </ul>

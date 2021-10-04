@@ -9,6 +9,7 @@ import {Sokjo} from "./components/Sokjo/Sokjo";
 import {Blog} from "./components/blog/Blog";
 import {LittlePress} from "./components/littlepress/LittlePress";
 import {Mapit} from "./components/mapit/Mapit";
+import {Econotravel} from "./components/econotravel/Econotravel";
 
 
 export function App() {
@@ -19,6 +20,9 @@ export function App() {
               <Route exact path="/">
                   <Home />
               </Route>
+              <Route exact path="/home">
+                  <Home />
+              </Route>
               <Route path="/about">
                 <About />
                 </Route>
@@ -27,6 +31,9 @@ export function App() {
               </Route>
               <Route path="/projects">
                   <Projects />
+              </Route>
+              <Route path="/econotravel">
+                  <Econotravel />
               </Route>
               <Route path="/sokjo">
                   <Sokjo />

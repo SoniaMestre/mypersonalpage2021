@@ -62,9 +62,18 @@ link  {
     align-items: center;
     list-style: none;
     position: relative;
-    padding-top: 92px;
     background-color: #fafafa;;
-    padding: 77px;
+    padding: 77px 77px 0px 77px;
+}
+
+#thumbs4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: #fafafa;;
+    padding: 0px 77px 77px 77px;
     border-bottom: solid 1px #dddddd;
 }
 

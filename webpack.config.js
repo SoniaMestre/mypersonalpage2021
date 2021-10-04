@@ -14,7 +14,7 @@ module.exports = {
         clean: true
     },
     resolve: {
-        extensions: [".js", ".jsx", ".scss", ".css"]
+        extensions: [".js", ".jsx", ".scss", ".css", ".mp4"]
     },
     module: {
         rules: [
@@ -36,7 +36,7 @@ module.exports = {
                 }
             },
             {
-                test: /\.(png|jpe?g|gif)$/i,
+                test: /\.(png|jpe?g|gif|mp4)$/i,
                 use: [
                     {
                         loader: 'file-loader',

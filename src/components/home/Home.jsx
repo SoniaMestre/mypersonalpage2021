@@ -4,6 +4,7 @@ import face from "../img/face-Sonia.jpg";
 import Sokjo from "../img/Sokjo_small.png";
 import littlepress_small from "../img/littlepress_small.png";
 import Mapit from "../img/Mapit.png";
+import Eco2 from "../img/eco-home-small.png";
 import {Link} from "react-router-dom";
 
 
@@ -26,6 +27,16 @@ export const Home = () => (
             <h3>my latest work</h3>
             <ul id="thumbs1">
                 <li className="works1">
+                    <Link to={"/Econotravel"} style={{ textDecoration: 'none' }}>
+                        <img className="photos1" src={Eco2} alt="Econotravel"/>
+                        <div className="description">
+                            <span className="arrow-r" />
+                            <h4 className="text4">Econotravel web-app</h4>
+                            <p>React + npm</p>
+                        </div>
+                    </Link>
+                </li>
+                <li className="works1">
                     <Link to={"/Sokjo"} style={{ textDecoration: 'none' }}>
                         <img className="photos1" src={Sokjo} alt="Sokjo App"/>
                         <div className="description">
@@ -44,16 +55,7 @@ export const Home = () => (
                         </div>
                     </Link>
                 </li>
-                <li className="works1">
-                    <Link to={"/Mapit"} style={{ textDecoration: 'none' }}>
-                        <img className="photos1" src={Mapit} alt="Mapit App"/>
-                        <div className="description">
-                            <span className="arrow-r" />
-                            <h4 className="text4">Mapit App</h4>
-                            <p>New business developer</p>
-                        </div>
-                    </Link>
-                </li>
+
             </ul>
 
         </section>
